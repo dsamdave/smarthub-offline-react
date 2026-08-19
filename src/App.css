@@ -1,0 +1,20 @@
+
+
+.container{
+    border: 2px solid green;
+}
+
+.img0car{
+    width: 30px;
+}
+
+
+button{
+    /* background-color: coral; */
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+    height: 25px;
+    margin-right: 25px;
+}
