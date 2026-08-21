@@ -1,31 +1,23 @@
-
-
+import NavbarComp from "./components/NavbarComp"
 import "./App.css"
-import FooterComp from "./components/Footer/FooterComp"
-
-import HeroComp from "./components/HeroComp"
-import NavbarComp from "./components/Navbar"
-
-
+import HeroSection from "./components/HeroSection"
+import ProductsComp from "./components/ProductsComp"
 
 const App = ()=>{
 
   return (
+    <div>
 
-    <>
-
+      {/* Navbar */}
       <NavbarComp />
-       
+
+      <HeroSection />
+
+      <ProductsComp />
       
-
-      <HeroComp />
-
-      <FooterComp />
-    </>
+    </div>
   )
 
-
 }
-
 
 export default App
